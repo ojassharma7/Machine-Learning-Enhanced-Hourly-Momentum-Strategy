@@ -30,7 +30,7 @@ ML strategy :
 Signals are generated based on thresholds defined by technical indicators and machine learning outputs. Trades are executed when conditions align with predefined criteria, ensuring precision and consistency. 
 Signal generation : multi signal buy /sell based on buy / sell thresholds ( Basically it buys if there are multiple buys and sells if there are multiple sells )
 
-![Alt text](Picture2.png)
+![Alt text](<Screenshot 2025-01-23 at 12.32.43 PM.png>)
 
 # 6. Backtesting Approach
 
