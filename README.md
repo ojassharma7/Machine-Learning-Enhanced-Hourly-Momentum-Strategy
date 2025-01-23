@@ -16,7 +16,7 @@ Preprocessing: The dataset undergoes preprocessing, including handling missing v
 
 The strategy integrates cointegration analysis and technical indicators to generate signals. Indicators like RSI, MACD, and Bollinger Bands are used to confirm trends and refine signal generation.
 
-![Alt text](Picture1.png)
+![Alt text](Pictures/Picture1.png)
 
 # 4. Machine Learning Models
 
@@ -30,14 +30,14 @@ ML strategy :
 Signals are generated based on thresholds defined by technical indicators and machine learning outputs. Trades are executed when conditions align with predefined criteria, ensuring precision and consistency. 
 Signal generation : multi signal buy /sell based on buy / sell thresholds ( Basically it buys if there are multiple buys and sells if there are multiple sells )
 
-![Alt text](<Screenshot 2025-01-23 at 12.32.43 PM.png>)
+![Alt text](<Pictures/Screenshot 2025-01-23 at 12.32.43 PM.png>)
 
 # 6. Backtesting Approach
 
 The data is divided into in-sample (training) and out-of-sample (testing) periods. Walk-forward optimization is used to periodically update parameters, mimicking real-time trading conditions. Transaction costs and slippage are incorporated for realistic simulations.
 Back testing : ATR based multiplier stop loss, Transaction cost = 1% and slippage = 0.2 %
 
-![Alt text](Picture3.png)
+![Alt text](Pictures/Picture3.png)
 
 # 7. Results and Analysis
 Key Performance Metrics:
@@ -47,7 +47,7 @@ Key Performance Metrics:
 -Sharpe Ratio: Ranges from .71-1.84  based on parameter sets.
 The strategy demonstrates steady growth with controlled risk, outperforming simple buy-and-hold approaches in volatile conditions.
 
-![Alt text](Picture4.png)
+![Alt text](Pictures/Picture4.png)
 
 # 8. Discussion
 Interpretation of Results: The strategy captures trends effectively and maintains manageable risks. It is most effective in volatile or range-bound markets but may underperform during strong bullish trends.
