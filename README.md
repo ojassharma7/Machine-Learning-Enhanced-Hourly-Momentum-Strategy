@@ -39,7 +39,7 @@ Back testing : ATR based multiplier stop loss, Transaction cost = 1% and slippag
 
 ![Alt text](Picture3.png)
 
-# 6. Results and Analysis
+# 7. Results and Analysis
 Key Performance Metrics:
 -Cumulative Return: Approximately 84% over the test period.
 -Maximum Drawdown: Around 30%
@@ -49,7 +49,7 @@ The strategy demonstrates steady growth with controlled risk, outperforming simp
 
 ![Alt text](Picture4.png)
 
-# 7 Discussion
+# 8. Discussion
 Interpretation of Results: The strategy captures trends effectively and maintains manageable risks. It is most effective in volatile or range-bound markets but may underperform during strong bullish trends.
 Risk Considerations: The approach is market-neutral and reduces directional exposure. However, reliance on model assumptions and parameter tuning may limit adaptability to extreme market conditions.
 
